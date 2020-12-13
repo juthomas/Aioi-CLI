@@ -1,0 +1,121 @@
+{
+  "_args": [
+    [
+      "node-osc@^4.1.8",
+      "/home/juthomas/Documents/Softwares/Orca/desktop"
+    ]
+  ],
+  "_from": "node-osc@>=4.1.8 <5.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "node-osc@4.1.9",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/node-osc",
+  "_nodeVersion": "14.0.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/node-osc_4.1.9_1587530115103_0.14051672811358773"
+  },
+  "_npmUser": {
+    "email": "myles.borins@gmail.com",
+    "name": "mylesborins"
+  },
+  "_npmVersion": "6.14.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "node-osc",
+    "raw": "node-osc@^4.1.8",
+    "rawSpec": "^4.1.8",
+    "scope": null,
+    "spec": ">=4.1.8 <5.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-osc/-/node-osc-4.1.9.tgz",
+  "_shasum": "b22302f66ae181472322d14627d5d0becf0a84fc",
+  "_shrinkwrap": null,
+  "_spec": "node-osc@^4.1.8",
+  "_where": "/home/juthomas/Documents/Softwares/Orca/desktop",
+  "author": {
+    "email": "myles.borins@gmail.com",
+    "name": "Myles Borins"
+  },
+  "bugs": {
+    "url": "https://github.com/MylesBorins/node-osc/issues"
+  },
+  "contributors": [
+    {
+      "name": "Hans Hübner",
+      "email": "hans.huebner@gmail.com"
+    },
+    {
+      "name": "Andy Smith",
+      "email": "jabber@term.ie"
+    },
+    {
+      "name": "Myles Borins",
+      "email": "myles.borins@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "get-port": "^5.1.1",
+    "jspack": "0.0.4",
+    "osc-min": "^1.1.1"
+  },
+  "description": "pyOSC inspired library",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "tap": "^14.10.7"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 21,
+    "integrity": "sha512-1avottZqi+6f6dr0x68EpyHSpToDi9SlCkIW1mx+ThLYS32IOvxA96QWdW8MetS3nfKIyyHKO/oaD5T2PhCfnA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJen8mDCRA9TVsSAnZWagAAq+8P/17LBhZN3f/ZZ0vSB9Fj\npb5AzenzI7azGqstE+RO63s+7GZRnnyLeqLePr+7MJfZrLqp95lrXCACRLII\nmcaQy13OUMHJnhcy6lW7M9j1wX7jM7A6ftcdeqqTxfxA5ZNhM6wo+em2eSR7\nSaqOxSXECV2bZKg4jUuGVJ1RcfJX0J5ovpuhZoGD0xQKRcPmQg0dAxuh5PVD\n0jWFqq2V4gkBB0aPgVI432zhxjG4DJMh2wLr0E9UACVb4k8Sj3janjnHmRMk\nvSNnsEM+F4dTckEO7IPwdxohKVesBliAcIJXVDcfv1GT0t585T2l6IyRcXFS\n3XHsfYFI6rgTvgxoH4HP4hN541BZ4W1ufAozCmpCPYG/yFBk3T2pyb6R5ULZ\n52SnzOsp3x0lrQ1wHScZiw0H70BcYg6Cb1lSgmesipLgrb6AbiY8w5b0Gnra\nacQbNsbdp4cZGCoezCJ/26i0zKihHHHCKtaKHW8QjrzzCqbD2CJj5hdH9GW6\nD+R1ruGlRc9h8TOP6nHug6tfw5tVPMUFd3FiILd+11FWw5S/X6YREkOX8UFR\nSetdkKB4l6/xDz4cXWmTztciVToXpZ+CojbSX+jAdUAScKdOMK06h2BFvt4N\n+fFUTwxKdYuTUVpYOL4tup7jRODA14UD8GW+ca+MQEay2lm2xutONWJEsb4J\nu/oq\r\n=gPdW\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "b22302f66ae181472322d14627d5d0becf0a84fc",
+    "tarball": "https://registry.npmjs.org/node-osc/-/node-osc-4.1.9.tgz",
+    "unpackedSize": 52607
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "exports": {
+    ".": {
+      "default": "./lib/index.js",
+      "import": "./lib/index.mjs"
+    },
+    "./": "./",
+    "./esm": "./lib/index.mjs"
+  },
+  "gitHead": "7a89b0352c7cbec2559117ef4ba0b531ea361659",
+  "homepage": "https://github.com/MylesBorins/node-osc#readme",
+  "keywords": [
+    "osc",
+    "udp"
+  ],
+  "license": "LGPL-2.1",
+  "main": "./lib/index.js",
+  "maintainers": [
+    {
+      "name": "mylesborins",
+      "email": "myles.borins@gmail.com"
+    }
+  ],
+  "name": "node-osc",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MylesBorins/node-osc.git"
+  },
+  "scripts": {
+    "coverage-html": "npm run tap -- --coverage-report=html",
+    "lint": "eslint **/*.js",
+    "tap": "tap test/test-*.js",
+    "test": "npm run lint && npm run tap",
+    "test-ci": "npm run lint && tap --no-coverage --no-esm test/test-*.js"
+  },
+  "version": "4.1.9"
+}
